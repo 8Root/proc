@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Proc </title>
+</head>
+<body>
+  <button id="triggerButton">Trigger Protocol</button>
+
+  <script>
+    var triggerButton = document.getElementById('triggerButton');
+    triggerButton.addEventListener('click', function() {
+      //CUSTOM PROTOCOL
+      window.location.href = 'proc-hello://';
+    });
+  </script>
+</body>
+</html>
