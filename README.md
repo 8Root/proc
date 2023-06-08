@@ -1,4 +1,4 @@
-# Protocol - Rootqit (NOT FULLY FINISHED YET)
+# Protocol-Manual method - Rootqit (NOT FULLY FINISHED YET) 
 First of all, this only works on windows 10. I think it could also work on windows 7 and 8, but I never tested it.
 With this simple template, you can go to for example startaprogram://spotify in your everyday browser and it will start spotify.
 You could technically also set shortcuts for this, so if you type @sp in your browser search bar it will automatically go to startaprogram://spotify. But we can do that at the end.
