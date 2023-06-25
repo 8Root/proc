@@ -54,8 +54,6 @@ def main():
     else:
         print("Please specify a configuration file using the '-c' or '--config' argument.")
 
-# Rest of the code...
-
 
 
 # Set up the argument parser
@@ -63,11 +61,4 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-c", "--config", help="Specify the configuration file")
 args = parser.parse_args()
 
-ensurepath = input('This programm is running in C:/Proc and the runtime folder is there right? Y/n @:')
-
-if ensurepath.lower() == 'y':
-    main()
-elif ensurepath.lower() == 'n':
-    print('Ok. Please fix it.')
-else: 
-    print('Please respond with Y or N')
+main()
